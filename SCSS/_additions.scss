@@ -20,13 +20,31 @@
     margin-right: 0.3em;
 }
 
+.fab {
+    color: white;
+}
+
+.fab:hover {
+    transform: rotateZ(30deg) scale(1.3);
+    transition: all 0.1s ease-in;
+}
+
 .nopadding {
     padding: 0% 0% 2vw 0%;
 }
 
 .project {
+    p {
+        text-align: center;
+    }
+
     .description {
         margin: 0.7em 0em;
     }
+
     padding-bottom: 1em;
+}
+
+.icons {
+    text-align: center;
 }
