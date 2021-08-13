@@ -1,13 +1,26 @@
 @media screen and (max-width: 1052px) {
     .container {
-        width: 80vw;
+        width: 90vw;
     }
 
     .column {
-        margin: 5vh 0;
+        margin: 4vh 1.5vh;
+    }
+
+    .column is-half {
+        margin: 0;
+    }
+
+    .profile {
+        margin-left: 3.5vh;
     }
 
     .badges {
         width: 1.7rem;
+    }
+
+    .pfp {
+        margin-left: 1em;
+        width: 6em;
     }
 }
