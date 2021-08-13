@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+@import url("https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css");
+.container {
+  width: 65vw;
+  margin: 3.5vw auto;
+}
+
+.box {
+  position: relative;
+  background-color: #1c202f;
+  color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-align: center;
+}
+
+.column {
+  color: white;
+  font-size: 1em;
+  text-align: left;
+  padding: 0.5vw 2vw;
+  margin-top: 1.3vw;
+}
+
+.columns {
+  margin-left: 0px;
+}
+
+.title {
+  color: white;
+}
+
+.subtitle {
+  color: grey;
+}
+
+.tag {
+  background-color: #16151d !important;
+  color: white !important;
+}
+
+.firstimg {
+  position: relative;
+  z-index: 0;
+  width: 100vw;
+  height: 20vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.secondimg {
+  position: absolute;
+  z-index: 1;
+  margin-left: 2vw;
+  margin-top: 15vw;
+  width: 8.5vw;
+  border-radius: 50%;
+}
+
+.profile {
+  text-align: left;
+  margin-top: 4vw;
+  margin-left: 2.2vw;
+}
+
+.badges {
+  margin-top: 0.5vw;
+  width: 2rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.fas {
+  margin-right: 0.3em;
+}
+
+.nopadding {
+  padding: 0% 0% 2vw 0%;
+}
+
+.project {
+  line-height: 2.3em;
+  padding-bottom: 1em;
+}
+
+@media screen and (max-width: 1052px) {
+  .container {
+    width: 80vw;
+  }
+  .column {
+    margin: 5vh 0;
+  }
+  .badges {
+    width: 1.7rem;
+  }
+}
+
+html, body {
+  background-color: #16151d;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}

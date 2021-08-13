@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import "./contents";
+@import "./additions";
+@import "./mediaqueries";
+
+html, body {
+    background-color: #16151d;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css");

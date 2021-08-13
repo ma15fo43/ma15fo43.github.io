@@ -1,0 +1,44 @@
+.firstimg {
+    position: relative; 
+    z-index: 0;
+    width: 100vw;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.secondimg {
+    position: absolute; 
+    z-index: 1;
+    margin-left: 2vw; 
+    margin-top: 15vw;
+    width: 8.5vw;
+    border-radius: 50%;
+}
+
+.profile {
+    text-align: left;
+    margin-top: 4vw;
+    margin-left: 2.2vw;
+}
+
+.badges {
+    margin-top: 0.5vw;
+    width: 2rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.fas {
+    margin-right: 0.3em;
+}
+
+.nopadding {
+    padding: 0% 0% 2vw 0%;
+}
+
+.project {
+    line-height: 2.3em;
+    padding-bottom: 1em;
+}
