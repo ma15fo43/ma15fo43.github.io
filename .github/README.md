@@ -1,2 +1,2 @@
-# https://mazz.fun
-My portfolio. Redesigned on december the 20th, 2020.
+# https://mazz.xyz
+My portfolio. Redesigned on 08/12/2021.
