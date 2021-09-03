@@ -4,7 +4,7 @@
     }
 
     .column {
-        margin: 1vh 0vh;
+        margin: 0.5vh 0vh;
     }
 
     .badges {
@@ -14,5 +14,11 @@
     .pfp {
         width: 6em;
         margin-bottom: 1em;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .container {
+        width: 50vw;
     }
 }
